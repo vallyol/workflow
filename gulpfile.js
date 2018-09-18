@@ -90,11 +90,4 @@ gulp.task('fonts', function() {
 gulp.task('build', gulp.series('clean', gulp.parallel('sass', 'scripts', 'images',  'fonts')));
 
 // default Task
-
-// Пустая задача
-// gulp.task('default', function(callback) {
-//   callback();
-// });
-
-// Отслеживание изменений в каталоге с запуском задачи
 gulp.task('default', gulp.series('build', 'watch'));
