@@ -3,3 +3,4 @@ node_modules
 .sass-cache
 .directory
 source/assets/images/*
+source/assets/fonts/*
